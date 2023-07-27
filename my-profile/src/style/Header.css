@@ -1,0 +1,52 @@
+.Header{
+    margin:0 auto;
+    width: 980px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.Left-Header{
+    margin-top:5px;
+    margin-left:3px;
+    float:left;
+    color: #4E3A85;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#Right-Header{
+    float:right;
+}
+
+.HeaderList{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:3px;
+    float:right;
+    height: 22px;
+    flex-shrink: 0;
+    list-style-type:none;
+    
+}
+
+#home, #about-me, #experience, #portfolio, #contact{
+    float: left;
+    margin-right:5px;
+    margin-left:15px;
+    display: inline-block;
+    color: #FFF;
+    font-family: Noto Sans KR;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.HeaderLine{
+    width: 980px;
+    height: 1px;
+    flex-shrink: 0;
+}
