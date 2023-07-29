@@ -1,0 +1,15 @@
+.Experience{
+    margin:0 auto;
+    padding: 50px;
+    width: 980px;
+    height: 1000px;
+    flex-shrink: 0;
+}
+
+.Content-Ex{
+    padding:40px;
+    margin: 0 auto;
+    width: 864px;
+    height: 800px;
+    flex-shrink: 0;
+}
