@@ -8,7 +8,6 @@ function Intro() {
     <div className="Intro">
         <Header />
         <MiniProfile />
-        <AboutMe />
     </div>
   );
 }
