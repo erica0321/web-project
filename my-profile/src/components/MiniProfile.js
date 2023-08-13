@@ -16,10 +16,26 @@ function MiniProfile(){
             <hr className="ShortLine" />
             <div className="Profile-Btn">
                 <ul className="Btn-List">
-                    <li id="github"><img src={Github} alt="GithubLink"/></li>
-                    <li id="notion"><img src={Notion} alt="NotionLink"/></li>
-                    <li id="gmail"><img src={Gmail} alt="GmailLink"/></li>
-                    <li id="velog"><img src={Velog} alt="VelogLink"/></li>
+                    <li id="github">
+                        <a href="https://github.com/erica0321" rel="noreferrer" target="_blank" >
+                            <img src={Github} alt="GithubLink"/>
+                        </a>
+                    </li>
+                    <li id="notion">
+                        <a href="https://www.notion.so/d1fd1781184747e59b180110fcfbcdea?v=9d954c41f00a4f8aab9961d787674df9&pvs=4" rel="noreferrer" target="_blank">
+                            <img src={Notion} alt="NotionLink"/>
+                        </a>
+                    </li>
+                    <li id="gmail">
+                        <a href="mailto:erica0321@hufs.ac.kr" >
+                            <img src={Gmail} alt="GmailLink"/>
+                        </a>
+                    </li>
+                    <li id="velog">
+                        <a href="https://velog.io/@erica0321" rel="noreferrer" target="_blank">
+                            <img src={Velog} alt="VelogLink" />
+                        </a>
+                    </li>
                 </ul>
             </div>
 

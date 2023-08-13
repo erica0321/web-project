@@ -11,7 +11,7 @@ function AboutMe() {
                     <img src={Title} alt="AboutMe" />
                 </div>
                 <div className="Information1">
-                    <img id="img2" src={MiniProfile2} alt="MiniProfile2" />
+                    <img id="img2" src={MiniProfile2} alt="MiniProfile2"/>
                     <img id="bubble" src={Bubble} alt="InfoBubble" />
                 </div>
                 <div className="Information2">
@@ -27,7 +27,7 @@ function AboutMe() {
                                         ☎️ +82 10-xxxx-xxxx
                                     </li>
                                     <li id="list-content">
-                                        ✉️ xxxx0321@gmail.com
+                                        ✉️ xxxx0321@hufs.ac.kr
                                     </li>
                                     <li id="list-content">
                                         🏠 성남시 수정구
