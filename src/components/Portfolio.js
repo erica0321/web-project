@@ -7,8 +7,9 @@ import port45 from "../img/port45.png"
 
 function Portfolio(){
     return(
-        <div className="Portfolio">
-            <div className="Title">
+        <div className="Portfolio-background">
+            <div className="Portfolio">
+                <div className="Title">
                 <img src={title} alt="Experience" />
             </div>
             <div className="Content-Port">
@@ -25,7 +26,7 @@ function Portfolio(){
             </div>
             <div className="Content-Port-Add">
                 업데이트중입니다.
-            </div>
+            </div></div>
         </div>
     );
 }

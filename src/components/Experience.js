@@ -4,12 +4,14 @@ import experience from "../img/experience.png"
 
 function Experience() {
     return(
-        <div className="Experience">
-            <div className="Title">
-                <img src={title} alt="Experience" />
-            </div>
-            <div className="Content-Ex">
-                <img src={experience} alt="Timeline"></img>
+        <div className="Experience-back">
+            <div className="Experience">
+                <div className="Title">
+                    <img src={title} alt="Experience" />
+                </div>
+                <div className="Content-Ex">
+                    <img src={experience} alt="Timeline"></img>
+                </div>
             </div>
         </div>
     );
