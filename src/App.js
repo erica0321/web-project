@@ -1,17 +1,20 @@
-import './App.css';
-import Intro from './components/Intro'
-import AboutMe from './components/AboutMe'
-import Experience from './components/Experience'
-import Portfolio from './components/Portfolio'
+import styles from './App.module.css';
+import Header from './components/Header';
+import Main from './pages/Main';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
-    <div>
-      <Intro />
-      <AboutMe />
-      <Experience />
-      <Portfolio />
-    </div>
+    <BrowserRouter>
+      <div className={styles.main}>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
