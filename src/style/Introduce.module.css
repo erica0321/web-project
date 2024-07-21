@@ -1,0 +1,26 @@
+.main {
+  width: 100%;
+}
+
+.subTitle {
+  font-size: large;
+  font-weight: 600;
+}
+
+.content {
+  color: #353535;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  word-break: keep-all;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.strong {
+  background-color: rgb(229, 229, 229);
+  padding: 3px 5px;
+  border-radius: 10px;
+}

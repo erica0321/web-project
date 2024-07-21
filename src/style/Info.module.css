@@ -1,0 +1,35 @@
+.info {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+}
+
+.profile {
+  width: 200px;
+}
+
+.sideProfileList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sideList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sideContent {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.sideContent:hover {
+  background-color: #eeeeee;
+}
