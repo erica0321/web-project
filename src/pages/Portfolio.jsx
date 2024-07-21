@@ -1,6 +1,4 @@
 import styles from '../style/Portfolio.module.css';
-import Info from '../components/Info';
-
 export default function Portfolio() {
   return (
     <div className={styles.main}>
