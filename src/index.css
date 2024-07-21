@@ -1,13 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', 'Nanum Gothic',
-    'Malgun Gothic', sans-serif;
+  font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-break: keep-all;
   line-height: 1.5;
   word-wrap: break-word;
-  overflow-y: scroll;
 }
 
 code {

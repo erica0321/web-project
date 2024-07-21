@@ -7,6 +7,10 @@
   gap: 100px;
   padding: 0 30px;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .container {

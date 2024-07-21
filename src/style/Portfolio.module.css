@@ -32,3 +32,58 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+
+@media (max-width: 700px) {
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.project {
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid rgb(212, 212, 212);
+  width: 100%;
+  height: fit-content;
+  font-family: 'Apple SD Gothic Neo';
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.project:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #eeeeee;
+}
+
+.portTitle {
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.tab {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.projectText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
