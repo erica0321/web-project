@@ -1,9 +1,10 @@
 import styles from '../style/MainProject.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Project({ data }) {
   return (
     <div className={styles.container}>
-      <div className={styles.subTitle}>{data.title}&nbsp;</div>
+      <h3 className={styles.subTitle}>{data.title}</h3>
       <div className={styles.info}>{data.subTitle}</div>
 
       <div className={styles.content}>
@@ -48,14 +49,9 @@ export default function Project({ data }) {
           </a>
         ) : null}
         {data.site ? (
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href={data.site}
-            className={styles.link}
-          >
+          <Link to={data.portfolio} className={styles.link}>
             🖇️ &nbsp;{data.portfolioTitle}
-          </a>
+          </Link>
         ) : null}
       </div>
     </div>

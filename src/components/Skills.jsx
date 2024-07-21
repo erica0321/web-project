@@ -110,8 +110,8 @@ export default function Skills() {
   return (
     <div className={styles.main}>
       <h2>Skills</h2>
-      {skills.map((skill) => {
-        return <Skill data={skill} />;
+      {skills.map((skill, index) => {
+        return <Skill key={index} data={skill} />;
       })}
     </div>
   );
@@ -121,13 +121,17 @@ function Skill({ data }) {
   return (
     <div className={styles.container}>
       <h3>{data.skill}</h3>
-      {data.language.map((la) => {
+      {data.language.map((la, index) => {
         return (
-          <div className={styles.list}>
+          <div key={index} className={styles.list}>
             <div className={styles.left}>{la.name}</div>
             <div className={styles.right}>
-              {la.feature.map((fe) => {
-                return <div className={styles.text}>- {fe}</div>;
+              {la.feature.map((fe, index) => {
+                return (
+                  <div key={index} className={styles.text}>
+                    - {fe}
+                  </div>
+                );
               })}
             </div>
           </div>
