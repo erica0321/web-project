@@ -5,7 +5,10 @@ export default function WorkExperience() {
     <div className={styles.main}>
       <h2>Work Experience</h2>
       <div className={styles.container}>
-        <div className={styles.subTitle}>2023 ICT 학점 연계 인턴십&nbsp;</div>
+        <div className={styles.subTitle}>
+          (주) 플록스{' '}
+          <span className={styles.gray}>- 2023 ICT 학점 연계 인턴십</span>&nbsp;
+        </div>
         <div className={styles.info}>
           상품 정보 추출하는 웹 스크래퍼 및 크롬 익스텐션 기능 고도화 / 웹 개발
         </div>

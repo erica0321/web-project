@@ -28,15 +28,21 @@ export default function Introduce() {
           131초로 약 <strong className={styles.strong}>2.34배 증가</strong>하고,{' '}
           <strong className={styles.strong}>이탈률</strong>은 78%에서 59%로 약{' '}
           <strong className={styles.strong}>19%p 감소</strong>
-          하는 성과를 거두었습니다.
+          하는 성과를 거두었습니다.또한 웹투앱으로 기존대비 서비스{' '}
+          <strong className={styles.strong}>WAU</strong>가{' '}
+          <strong className={styles.strong}>약 400명 증가</strong>했으며{' '}
+          <strong className={styles.strong}>앱 전환 신규가입 수</strong>도{' '}
+          356명에서 849명으로
+          <strong className={styles.strong}>약 2.4배 증가</strong>
+          했습니다.
         </span>
         <span>
           이 과정에서 사용자에게 중요한 서비스의 핵심 기능을 강조하는 방법을
           주도적으로 제안하며, 사용자 의도 파악의 중요성을 깊이 깨닫게
           되었습니다. 앞으로도 사용자 의도를 정확히 파악하여 서비스 만족감을
-          높이는 개발자가 되고자 합니다. 빠르게 변화하는 개발 트렌드를 꾸준히
-          학습하고, <strong>사용자에게 최적의 경험을 제공</strong>하는
-          프론트엔드 개발자가 되겠습니다.
+          높이는 개발자, 빠르게 변화하는 개발 트렌드를 꾸준히 학습하고,{' '}
+          <strong>사용자에게 최적의 경험을 제공</strong>하는 프론트엔드
+          개발자입니다.
         </span>
       </div>
     </div>
