@@ -53,7 +53,7 @@ export default function Skills() {
       skill: 'Back-end',
       language: [
         {
-          name: 'Node.js',
+          name: 'express',
           feature: [
             'CRUD 기능을 구현할 수 있습니다.',
             'Entity-Relationship Diagram을 통해 데이터베이스 구조를 효율적으로 설계할 수 있습니다.',
