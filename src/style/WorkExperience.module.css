@@ -74,3 +74,8 @@ ul {
 .role {
   margin-top: 10px;
 }
+
+.gray {
+  color: #858585;
+  font-size: 17px;
+}
