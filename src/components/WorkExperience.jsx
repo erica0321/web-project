@@ -3,7 +3,7 @@ import styles from '../style/WorkExperience.module.css';
 export default function WorkExperience() {
   return (
     <div className={styles.main}>
-      <h2>Work Experience</h2>
+      <h2>Work Experience.</h2>
       <div className={styles.container}>
         <div className={styles.subTitle}>
           (주) 플록스{' '}

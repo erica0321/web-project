@@ -87,3 +87,19 @@
   flex-direction: column;
   gap: 5px;
 }
+
+.portfolioLink {
+  font-size: 14px;
+  text-decoration: underline;
+  color: black;
+  padding: 5px 10px;
+}
+
+.portfolioLink:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: #eeeeee;
+  width: fit-content;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}

@@ -3,36 +3,60 @@ import Project from './Project';
 import commitmate from '../img/commitmate.png';
 import ab from '../img/ab.png';
 import ranking from '../img/ranking.png';
+import dao from '../img/dao.png';
+import opensquare from '../img/opensquare.png';
 
 export default function MainProject() {
   const projects = [
     {
-      title: 'Commit Mate',
-      subTitle:
-        'Github API를 사용하여 조직의 기여도 상황을 파악하고 협업할 수 있는 대시보드',
-      site: 'https://commitmate.kro.kr',
-      siteIcon: 'https://commitmate.kro.kr/favicon.ico',
-      siteTitle: 'Commit Mate 사이트 바로가기',
-      length: '24.07.03 ~ 24.07.15',
+      title: '🔗 DAO 추억 공유 커뮤니티',
+      subTitle: '혁신적인 리얼타임 추억 쉐어링 플랫폼',
+      site: 'https://joytas.io',
+      siteIcon: 'https://joytas.io/favicon.ico',
+      siteTitle: 'DAO 사이트 바로가기',
+      length: '24.07 ~ 24.09, 고도화 중',
       role: '웹 프론트엔드 개발',
-      stack: 'Javascript, HTML, CSS, React',
+      stack: 'Typescript, React, styled-components, Zustand, WebRTC, Three.js',
       member: 'FE 2명, BE 3명',
       feature: [
-        '권한에 따른 페이지 뷰 구분',
-        '대시보드 구현 (차트 및 그래프 사용)',
-        'AWS S3, Cloudfront를 이용해 dev 웹 배포',
-        'Router를 사용한 SPA 개발',
+        '프론트엔드 기술환경 구성 및 기본 기능 구현',
+        'Three.js를 이용해 3D 공간 구현',
+        'WebRTC 관련 통화 기능 공동 구현',
+        '무한 스크롤을 이용한 알림 목록 구현',
       ],
-      portfolio: '/portfolio/1',
-      portfolioTitle: 'Commit Mate 포트폴리오 바로가기',
-      image: commitmate,
-      link: 'https://drive.google.com/file/d/1mMpYqDy2kb4m4H9qtGLgUi2cIQ4TDeqS/view',
+      portfolio: '/portfolio/4',
+      portfolioTitle: 'DAO 포트폴리오 바로가기',
+      image: dao,
+      results: [
+        '실제 서비스되고 있으며, 현재 47 사용자를 가지고 있음',
+        'Disqueit 트렌딩 프로덕트 1위',
+      ],
     },
     {
-      title: '웹 A/B test 프로젝트 ',
+      title: '🔗 OpenSquare 커뮤니티',
+      subTitle:
+        '[개인 프로젝트] 개발 관련 질문과 고민을 공유하는 개발자 전용 커뮤니티',
+      site: 'https://open-square-fe-prd.vercel.app/',
+      siteIcon: 'https://open-square-fe-prd.vercel.app//favicon.ico',
+      siteTitle: 'OpenSquare 사이트 바로가기',
+      length: '2024.04 ~ 2024.06',
+      role: '프론트엔드, 백엔드 개발 및 배포',
+      stack: 'React, JavaScript, Spring Boot, AWS EC2, Docker',
+      member: '풀스택 1명',
+      feature: [
+        '프론트엔드 기술환경 구성 및 기본 기능 구현',
+        '바닐라 JS → React 개발 및 마이그레이션',
+        'Express.js → Spring Boot 개발 및 마이그레이션',
+      ],
+      portfolio: '/portfolio/4',
+      portfolioTitle: 'OpenSquare 포트폴리오 바로가기',
+      image: opensquare,
+    },
+    {
+      title: '🔗 웹 A/B test 프로젝트 ',
       subTitle:
         '[위시버킷]  실제 주 서비스인 앱 유입을 위해서 웹에 앱 유도하는 도구 추가',
-      length: '24.01.02 ~ 24.02.12',
+      length: '24.01 ~ 24.02',
       role: '웹 프론트엔드 개발',
       site: 'https://www.wishbucket.io',
       siteIcon: 'https://www.wishbucket.io/favicon.ico',
@@ -54,12 +78,12 @@ export default function MainProject() {
       ],
     },
     {
-      title: '웹 개편 프로젝트',
+      title: '🔗 웹 개편 프로젝트',
       subTitle: '[위시버킷]  기존의 UI를 새로운 UI로 개편하고 랭킹 페이지 추가',
       site: 'https://www.wishbucket.io',
       siteIcon: 'https://www.wishbucket.io/favicon.ico',
       siteTitle: '위시버킷 사이트 바로가기',
-      length: '23.12.01 ~ 23.12.20',
+      length: '23.12 ~ 23.12',
       role: '웹 프론트엔드 개발',
       stack: 'Typescript, NextJs, Google console',
       member: 'FE 1명, BE 1명, 기획 1명',
@@ -79,13 +103,13 @@ export default function MainProject() {
       ],
     },
     {
-      title: 'Chrome Extension 개발 프로젝트',
+      title: '🔗 Chrome Extension 개발 프로젝트',
       subTitle:
         '[위시버킷]  기존에 Vue로 구현되어 있는 크롬 익스텐션을 React로 migration 및 개발',
       site: 'https://chromewebstore.google.com/detail/%EC%9C%84%EC%8B%9C%EB%B2%84%ED%82%B7-wishbucket/glckfgggilcgnagngdlplfadipgkioeb',
       siteIcon: 'https://www.wishbucket.io/favicon.ico',
       siteTitle: '위시버킷 크롬익스텐션 바로가기',
-      length: '23.10.15 ~ 23.11.31',
+      length: '23.10 ~ 23.11',
       role: 'Chrome Extension 프론트엔드 개발',
       stack: 'Typescript, GraphQL,React, Chrome Extension',
       member: 'FE 1명, BE 1명, 기획 1명',
@@ -103,11 +127,33 @@ export default function MainProject() {
         '실제 서비스되고 있으며, 1,000 명 이상의 사용자를 가지고 있음 ',
       ],
     },
+    {
+      title: '🔗 Commit Mate',
+      subTitle:
+        'Github API를 사용하여 조직의 기여도 상황을 파악하고 협업할 수 있는 대시보드',
+      site: 'https://commitmate.kro.kr',
+      siteIcon: 'https://commitmate.kro.kr/favicon.ico',
+      siteTitle: 'Commit Mate 사이트 바로가기',
+      length: '24.07 ~ 24.07',
+      role: '웹 프론트엔드 개발',
+      stack: 'Javascript, HTML, CSS, React',
+      member: 'FE 2명, BE 3명',
+      feature: [
+        '권한에 따른 페이지 뷰 구분',
+        '대시보드 구현 (차트 및 그래프 사용)',
+        'AWS S3, Cloudfront를 이용해 dev 웹 배포',
+        'Router를 사용한 SPA 개발',
+      ],
+      portfolio: '/portfolio/1',
+      portfolioTitle: 'Commit Mate 포트폴리오 바로가기',
+      image: commitmate,
+      link: 'https://drive.google.com/file/d/1mMpYqDy2kb4m4H9qtGLgUi2cIQ4TDeqS/view',
+    },
   ];
 
   return (
     <div className={styles.main}>
-      <h2>주요 Projects</h2>
+      <h2>Main Projects.</h2>
       {projects.map((project, index) => {
         return <Project key={index} data={project} />;
       })}

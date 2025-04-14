@@ -9,15 +9,18 @@
 }
 
 .sideProfileList {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 
 .sideList {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 15px;
+}
+
+.sideTitle {
+  padding: 10px 0;
 }
 
 .sideContent {
